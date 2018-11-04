@@ -1,0 +1,104 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>br.com.camel</groupId>
+	<artifactId>exemplo</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+	<name>exemplo</name>
+	<url>http://maven.apache.org</url>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+
+
+	<dependencies>
+
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+			<version>2.0.6.RELEASE</version>
+		</dependency>
+
+		<!-- Camel -->
+		<dependency>
+			<groupId>org.apache.camel</groupId>
+			<artifactId>camel-spring-boot-starter</artifactId>
+			<version>2.22.1</version>
+		</dependency>
+
+		<!-- <dependency> -->
+		<!-- <groupId>org.apache.camel</groupId> -->
+		<!-- <artifactId>spi-annotations</artifactId> -->
+		<!-- <version>2.22.1</version> -->
+		<!-- <scope>provided</scope> -->
+		<!-- </dependency> -->
+
+
+		<!-- <dependency> -->
+		<!-- <groupId>org.apache.camel</groupId> -->
+		<!-- <artifactId>camel-servlet</artifactId> -->
+		<!-- <version>2.22.1</version> -->
+		<!-- </dependency> -->
+
+		<!-- https://mvnrepository.com/artifact/org.apache.camel/camel-restlet -->
+		<dependency>
+			<groupId>org.apache.camel</groupId>
+			<artifactId>camel-restlet</artifactId>
+			<version>2.22.1</version>
+		</dependency>
+
+
+
+
+
+		<!-- ActiveMQ -->
+
+		<dependency>
+			<groupId>org.apache.activemq</groupId>
+			<artifactId>activemq-broker</artifactId>
+			<version>5.15.7</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.activemq</groupId>
+			<artifactId>activemq-client</artifactId>
+			<version>5.15.7</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.activemq</groupId>
+			<artifactId>activemq-pool</artifactId>
+			<version>5.15.7</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.activemq</groupId>
+			<artifactId>activemq-camel</artifactId>
+			<version>5.15.7</version>
+		</dependency>
+
+
+
+
+
+
+
+
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+</project>
