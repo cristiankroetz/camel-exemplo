@@ -33,19 +33,8 @@
 			<version>2.22.1</version>
 		</dependency>
 
-		<!-- <dependency> -->
-		<!-- <groupId>org.apache.camel</groupId> -->
-		<!-- <artifactId>spi-annotations</artifactId> -->
-		<!-- <version>2.22.1</version> -->
-		<!-- <scope>provided</scope> -->
-		<!-- </dependency> -->
 
 
-		<!-- <dependency> -->
-		<!-- <groupId>org.apache.camel</groupId> -->
-		<!-- <artifactId>camel-servlet</artifactId> -->
-		<!-- <version>2.22.1</version> -->
-		<!-- </dependency> -->
 
 		<!-- https://mvnrepository.com/artifact/org.apache.camel/camel-restlet -->
 		<dependency>
@@ -86,8 +75,24 @@
 
 
 
+<!-- github -->
+		<dependency>
+			<groupId>org.apache.camel</groupId>
+			<artifactId>camel-github</artifactId>
+			<version>2.22.1</version>
+		</dependency>
 
+		<dependency>
+			<groupId>org.eclipse.mylyn.github</groupId>
+			<artifactId>org.eclipse.egit.github.core</artifactId>
+			<version>2.1.5</version>
+		</dependency>
 
+		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+			<version>2.8.5</version>
+		</dependency>
 
 
 

@@ -7,7 +7,7 @@ import org.apache.camel.builder.RouteBuilder;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 public class Route6 extends RouteBuilder {
 
 	@Override
@@ -20,7 +20,7 @@ public class Route6 extends RouteBuilder {
 			.produces(MediaType.ALL_VALUE)
 			.route()
 			.setHeader(Exchange.HTTP_RESPONSE_CODE,simple("200"))
-			.to("activemq:queue:rota6.fila.1?disableReplyTo=true")//testar o end na rota , qual rota???
+			.to("activemq:queue:rota6.fila.1?disableReplyTo=true")
 			.endRest()
 			;
 		

@@ -7,7 +7,7 @@ import org.apache.camel.builder.RouteBuilder;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 public class Route5 extends RouteBuilder {
 
 	@Override

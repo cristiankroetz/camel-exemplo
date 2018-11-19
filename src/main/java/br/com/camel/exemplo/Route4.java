@@ -5,7 +5,7 @@ package br.com.camel.exemplo;
 import org.apache.camel.builder.RouteBuilder;
 import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 public class Route4 extends RouteBuilder {
 
 	@Override
